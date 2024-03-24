@@ -2,6 +2,7 @@ import Link from "next/link";
 
 export default function HomeMenu() {
   return (
+    // Home Menu Here is the desktop menu
     <div>
       <ul className="flex gap-x-9 items-center justify-center text-seocundary">
         <li>

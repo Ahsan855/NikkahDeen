@@ -12,7 +12,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`noto-bengali dark:bg-dark dark:text-white`}>
         <Navbar />
-        <div className="container mx-auto"> {children}</div>
+
+        <div className="container mx-auto px-5"> {children}</div>
         <p className="text-4xl text-red-500">this is footer</p>
       </body>
     </html>

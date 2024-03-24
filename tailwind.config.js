@@ -16,6 +16,7 @@ module.exports = {
         seocundary: "#515251",
         dark: "#252932",
         medium: "#293245",
+        peragraph: "#737373",
       },
       screens: {
         tablet: "640px",
@@ -31,8 +32,8 @@ module.exports = {
         "noto-bengali": ["Noto Sans Bengali", "sans-serif"],
       },
       fontSize: {
-        header: ["42px", "62px"],
-        headerhero: ["56px", "72px"], // Font size and line height for header class
+        header: ["42px", "62px"], // Font size and line height for header class
+        headerhero: ["56px", "72px"], // Font size and line height for headerhero class
       },
     },
   },

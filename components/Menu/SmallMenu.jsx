@@ -4,11 +4,8 @@ import { useEffect, useState } from "react";
 import { ImCross } from "react-icons/im";
 import gsap from "gsap"; // Assuming gsap is imported properly
 import { MdMenuOpen } from "react-icons/md";
-import Image from "next/image";
-import translate from "@/assets/image/navbar/Translate.svg";
-import { IoIosArrowDown } from "react-icons/io";
 import Translate from "./Translate";
-
+// Home Menu Here is the Small device menu
 export default function SmallMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -28,6 +25,7 @@ export default function SmallMenu() {
 
   return (
     <div className="block md:hidden overflow-y-auto">
+      {/* menu open toggle bar*/}
       {isOpen ? (
         <ImCross
           onClick={toggleMenu}
@@ -39,11 +37,12 @@ export default function SmallMenu() {
           className="text-seocundary font-bold text-4xl p-2 focus:outline-none"
         />
       )}
-
+      {/*  MdMenuOpen if open menu then show this */}
       {isOpen && (
-        <div className="menu absolute border-t-[1px] border-seocundary right-0 w-full py-10 text-white bg-primary">
+        <div className="menu absolute  right-0 top-16 w-full py-10 text-white bg-primary">
           <>
             <div className="flex items-center justify-center gap-x-2">
+              {/* Translator added */}
               <Translate />
             </div>
             <ul className="flex flex-col items-center justify-center lg:flex-row lg:justify-start">

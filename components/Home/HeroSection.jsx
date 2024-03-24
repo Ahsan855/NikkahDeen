@@ -4,16 +4,17 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="flex min-h-[700px] w-full items-center justify-center">
-      <div className="flex w-full max-w-6xl gap-10 lg:flex-row flex-col items-center justify-between">
-        <div className="max-w-md md:space-y-6 sm:space-y-5 space-y-4">
-          <h2 className="text-lg text-primary font-bold">
+    <section className="flex w-full items-center justify-center">
+      <div className="flex mx-auto container gap-y-10 lg:flex-row flex-col items-center justify-between">
+        <div className="w-full md:w-1/2 md:px-5 md:space-y-6 sm:space-y-4 space-y-5">
+          <h2 className="header text-primary  font-bold">
             ইসলামিক ম্যাট্রিমনি
           </h2>
-          <h1 className="headerhero font-bold  text-seocundary">
-            মুসলিম পাত্র-পাত্রী খুঁজুন এখন খুবই সহজে
+          <h1 className="text-4xl leading-[50px] md:text-[56px] dark:text-white text-[#404040] md:leading-[76px] font-bold ">
+            মুসলিম <span className="text-primary">পাত্র-পাত্রী</span>
+            <span className="text-primary"> খুঁজুন </span>এখন খুবই সহজে
           </h1>
-          <p className="lg:text-lg sm:text-base text-sm text-gray-600">
+          <p className="lg:text-xl text-sm text-[#737373] dark:text-white font-medium">
             হাদীস থেকে বর্ণিত, যিনি বিয়ে করলেন, তিনি তার অর্ধেক দ্বীন পূর্ণ
             করলেন এবং বাকী অর্ধেকের জন্য তিনি যেন আল্লাহকে ভয় করেন। আপনার অর্ধেক
             দ্বীন পূর্ণ করতে মুসলিম পাত্র-পাত্রী খুঁজুন এখন খুবই সহজে।
