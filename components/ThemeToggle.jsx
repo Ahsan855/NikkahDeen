@@ -34,15 +34,15 @@ export default function ThemeToggle() {
   return (
     <div>
       {showMdDarkMode ? (
-        <MdDarkMode
+        <MdLightMode
           onClick={handleMdDarkModeClick}
-          className="ml-auto text-seocundary cursor-pointer"
+          className=" text-primary cursor-pointer"
           size={18}
         />
       ) : (
-        <MdLightMode
+        <MdDarkMode
           onClick={handleCiDarkClick}
-          className="text-primary cursor-pointer"
+          className="ml-auto text-seocundary  cursor-pointer"
           size={18}
         />
       )}

@@ -4,7 +4,7 @@ export default function HomeMenu() {
   return (
     // Home Menu Here is the desktop menu
     <div>
-      <ul className="flex gap-x-9 items-center justify-center text-seocundary">
+      <ul className="flex gap-x-9  items-center justify-center dark:text-white text-seocundary">
         <li>
           <Link
             href="/"

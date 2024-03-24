@@ -1,5 +1,6 @@
+import Footer from "@/components/Footer/Footer";
 import "./globals.css"; // Import your global CSS file
-import Navbar from "@/components/Menu/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
 
 export const metadata = {
   icon: "favicon.ico",
@@ -14,7 +15,8 @@ export default function RootLayout({ children }) {
         <Navbar />
 
         <div className="container mx-auto px-5"> {children}</div>
-        <p className="text-4xl text-red-500">this is footer</p>
+
+        <Footer />
       </body>
     </html>
   );
