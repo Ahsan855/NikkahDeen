@@ -1,4 +1,3 @@
-import React from "react";
 import svg1 from "@/assets/image/Procedure/Vector (1).svg";
 import svg2 from "@/assets/image/Procedure/Vector (2).svg";
 import svg3 from "@/assets/image/Procedure/Vector (3).svg";

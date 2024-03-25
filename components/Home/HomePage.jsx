@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./HeroSection";
 import BiodataPattiri from "../Biodata/BiodataPattiri";
 import Procedure from "../Procedure/Procedure";
+import Review from "../Review/Review";
 
 export default function HomePage() {
   return (
@@ -9,6 +10,7 @@ export default function HomePage() {
       <Header />
       <BiodataPattiri />
       <Procedure />
+      <Review />
     </div>
   );
 }
