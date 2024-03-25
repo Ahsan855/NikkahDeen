@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import Image from "next/image";
 import translate from "@/assets/image/navbar/Translate.svg";
+import { IoIosArrowUp } from "react-icons/io";
 
 const Translate = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -33,13 +34,23 @@ const Translate = () => {
         onClick={toggleDropdown}
       >
         <Image src={translate} alt="" />
-        <div className="flex items-start gap-x-1 justify-center">
+        <div className="flex items-start  gap-x-1 justify-center">
           <p>{selectedLanguage}</p>
-          <IoIosArrowDown className="text-secondary" />
+          {isDropdownOpen ? (
+            <IoIosArrowDown
+              onClick={toggleDropdown}
+              className="text-seocundary dark:text-white"
+            />
+          ) : (
+            <IoIosArrowUp
+              onClick={toggleDropdown}
+              className="text-seocundary dark:text-white"
+            />
+          )}
         </div>
       </div>
       {isDropdownOpen && (
-        <div className="absolute top-full left-0 bg-white text-primary shadow-md rounded-md">
+        <div className="absolute top-10 left-0 bg-white text-primary shadow-md rounded-md">
           {/* Dropdown content */}
           <ul>
             {translations.map((translation, index) => (

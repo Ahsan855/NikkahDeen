@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <body className={`noto-bengali dark:bg-dark dark:text-white`}>
         <Navbar />
 
-        <div className="container mx-auto px-5"> {children}</div>
+        {children}
 
         <Footer />
       </body>
