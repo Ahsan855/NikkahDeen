@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer/Footer";
 import "./globals.css"; // Import your global CSS file
 import Navbar from "@/components/Navbar/Navbar";
+import ThemeSelector from "@/components/Theme/ThemeSelector";
 
 export const metadata = {
   icon: "favicon.ico",
@@ -11,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`noto-bengali dark:bg-dark dark:text-white`}>
+      <body className={`noto-bengali dark:bg-dark  dark:text-white`}>
         <Navbar />
 
         {children}

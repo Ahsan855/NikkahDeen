@@ -15,6 +15,8 @@ module.exports = {
         primary: "#CC5DE8",
         seocundary: "#515251",
         dark: "#252932",
+        red: "#EA2027",
+        orange: "#FD6969",
         medium: "#293245",
         peragraph: "#737373",
       },

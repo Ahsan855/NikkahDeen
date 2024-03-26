@@ -14,9 +14,9 @@ import { MdHome } from "react-icons/md";
 export default function Footer() {
   return (
     <div>
-      <footer class="bg-seocundary dark:bg-dark px-5 py-10 dark:text-white  dark:border-t-[1px]">
-        <div class="container mx-auto pt-28 pb-8  flex flex-wrap justify-between">
-          <div class="w-full sm:w-1/2 md:w-1/4 sm:mb-0 space-y-5 mb-10">
+      <footer className="bg-seocundary dark:bg-dark px-5 py-10 dark:text-white  dark:border-t-[1px]">
+        <div className="container mx-auto pt-28 pb-8  flex flex-wrap justify-between">
+          <div className="w-full sm:w-1/2 md:w-1/4 sm:mb-0 space-y-5 mb-10">
             <Image src={logo} alt="" />
             <p className="text-white text-left">
               The proper Footer on proper time can preserve you protection. We
@@ -40,7 +40,7 @@ export default function Footer() {
           </div>
           <div className="w-3/4 flex flex-wrap gap-y-5 justify-center items-start md:justify-end">
             {/* Menu 1 */}
-            <div class="w-full sm:w-1/2 md:w-1/4 mb-4 sm:mb-0">
+            <div className="w-full sm:w-1/2 md:w-1/4 mb-4 sm:mb-0">
               {/* Column 2 content */}
               <ul className="space-y-3">
                 <li className=" text-white text-xl font-medium mb-5">
@@ -106,7 +106,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="w-full sm:w-1/2 md:w-1/4 mb-4 sm:mb-0">
+            <div className="w-full sm:w-1/2 md:w-1/4 mb-4 sm:mb-0">
               {/*  Column 3 content  */}
               {/* Menu 1 */}
 
@@ -174,7 +174,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="w-full sm:w-1/2 md:w-1/4 mb-4 sm:mb-0">
+            <div className="w-full sm:w-1/2 md:w-1/4 mb-4 sm:mb-0">
               {/*  Column 4 content */}
               {/* Menu 3 */}
 

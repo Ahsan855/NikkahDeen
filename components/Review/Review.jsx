@@ -5,13 +5,13 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 export default function Review() {
   return (
-    <div className=" bg-white dark:bg-dark py-24">
+    <div className=" bg-white  dark:bg-dark py-24">
       <div className=" text-center container mx-auto px-5">
         <h2 className="text-lg text-primary md:text-xl">রিভিউ</h2>
-        <h1 className="text-2xl md:text-5xl text-seocundary font-extrabold">
+        <h1 className="text-2xl md:text-5xl dark:text-white mt-5 text-seocundary font-extrabold">
           বিবাহিত দম্পতিদের কথা
         </h1>
-        <div className="flex gap-x-5 justify-center items-center mt-5">
+        <div className="flex gap-x-5 justify-center items-center mt-5 mb-10">
           <div className="w-7 h-2 rounded-full bg-primary"></div>
           <div className="w-20 h-2 rounded-full bg-primary"></div>
         </div>
@@ -30,7 +30,7 @@ export default function Review() {
           </div>
           {/* Content siite */}
           <div className="w-full md:w-1/2 space-y-10 md:space-y-20 mt-10">
-            <p className="font-normal text-lg md:text-2xl text-justify text-seocundary">
+            <p className="font-normal text-lg md:text-2xl text-justify dark:text-white text-seocundary">
               আমাদের ফেসবুক পেইজের মাধ্যমে গ্রাহক আমাদের সাথে সরাসরি যোগাযোগ
               করতে পারবেন। যেকোনো ধরণের সমস্যা অথবা যেকোনো ধরনের প্রশ্নের উত্তর
               আমরা দিয়ে থাকি।{" "}
@@ -41,8 +41,8 @@ export default function Review() {
                 <MdOutlineKeyboardArrowRight className="border-[1px] text-2xl" />
               </div>
               <div className="flex justify-between items-start md:gap-x-10 gap-x-5">
-                <div className="w-12 md:w-24 h-[2px] bg-seocundary mt-2"></div>
-                <p className="text-lg md:text-2xl font-bold text-seocundary text-start">
+                <div className="w-12 md:w-24 h-[2px] dark:bg-white bg-seocundary mt-2"></div>
+                <p className="text-lg md:text-2xl font-bold dark:text-white text-seocundary text-start">
                   মিস্টার এন্ড মিসেস্ <br className="hidden md:block" /> সরকার
                 </p>
               </div>

@@ -37,12 +37,12 @@ const Translate = () => {
         <div className="flex items-start  gap-x-1 justify-center">
           <p>{selectedLanguage}</p>
           {isDropdownOpen ? (
-            <IoIosArrowDown
+            <IoIosArrowUp
               onClick={toggleDropdown}
               className="text-seocundary dark:text-white"
             />
           ) : (
-            <IoIosArrowUp
+            <IoIosArrowDown
               onClick={toggleDropdown}
               className="text-seocundary dark:text-white"
             />

@@ -5,7 +5,7 @@ import { GoBell } from "react-icons/go";
 import Translate from "@/components/Menu/Translate";
 import HomeMenu from "@/components/Menu/HomeMenu";
 import SmallMenu from "@/components/Menu/SmallMenu";
-import ThemeToggle from "@/components/ThemeToggle";
+import ThemeToggle from "../Theme/ThemeToggle";
 
 export default function Navbar() {
   return (
