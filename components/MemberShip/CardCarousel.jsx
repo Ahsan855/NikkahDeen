@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaCheck } from "react-icons/fa";
-import { RxCross1 } from "react-icons/rx";
+import { ImCross } from "react-icons/im";
 
 export default function CardCarousel() {
   const settings = {
@@ -73,7 +73,7 @@ export default function CardCarousel() {
                   <FaCheck /> অসংখ্য প্রস্তাব পাঠাতে পারবেন
                 </li>
                 <li className="flex  gap-x-3 text-[#868E96]">
-                  <RxCross1 /> সরাসরি ৫টি প্রস্তাব গ্রহণ করতে পারবেন
+                  <ImCross /> সরাসরি ৫টি প্রস্তাব গ্রহণ করতে পারবেন
                 </li>
               </ul>
               <div className="mt-4 text-center">
@@ -178,6 +178,11 @@ export default function CardCarousel() {
           </div>
         </div>
       </Slider>
+      <div className="text-center mt-20">
+        <button className="border border-white hover:border-white hover:bg-white hover:text-primary text-white dark:text-primary font-semibold rounded-md px-10 py-2">
+          আরও দেখুন
+        </button>
+      </div>
     </div>
   );
 }
