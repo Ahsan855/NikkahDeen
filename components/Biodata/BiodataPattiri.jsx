@@ -79,7 +79,7 @@ const BiodataPattiri = ({ biodatabright }) => {
       <h1 className="text-2xl md:text-5xl font-extrabold text-seocundary dark:text-white text-center">
         পাত্রীর বায়োডাটা
       </h1>
-      <div className="flex gap-x-5 justify-center items-center mt-5 mb-10">
+      <div className="flex gap-x-5 justify-center items-center mt-5 mb-20">
         <div className="w-7 h-2 rounded-full bg-primary"></div>
         <div className="w-20 h-2 rounded-full bg-primary"></div>
       </div>
@@ -103,6 +103,11 @@ const BiodataPattiri = ({ biodatabright }) => {
           </div>
         ))}
       </Slider>
+      <div className="text-center mt-10">
+        <button className="border border-seocundary hover:border-primary hover:bg-primary hover:text-white text-seocundary dark:text-white font-semibold rounded-md px-5 py-2">
+          আরও দেখুন
+        </button>
+      </div>
     </div>
   );
 };
