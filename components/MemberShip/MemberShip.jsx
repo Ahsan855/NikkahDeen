@@ -16,7 +16,7 @@ export default function MemberShip() {
       <div>
         <CardCarousel />
       </div>
-      <div className="bg-white p-8 rounded-md absolute -top-[7%] left-1/2 transform -translate-x-1/2">
+      <div className="bg-white  p-8 rounded-md absolute -top-[7%] left-1/2 transform -translate-x-1/2">
         <SelectedData />
       </div>
     </div>

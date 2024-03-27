@@ -3,7 +3,7 @@ import React from "react";
 export default function SelectSearch() {
   return (
     <div className=" flex flex-wrap  justify-center items-center gap-y-5 gap-x-10 my-32">
-      <div className="bg-primary h-32 w-52 p-2 text-center text-white rounded-md">
+      <div className="bg-primary  h-32 w-52 p-2 text-center text-white rounded-md">
         <h1 className="text-5xl  my-2 font-bold">১২৫</h1>
         <h2 className="text-xl font-semibold">একাউন্ট</h2>
       </div>

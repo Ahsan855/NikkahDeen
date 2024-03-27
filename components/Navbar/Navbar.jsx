@@ -9,8 +9,8 @@ import ThemeToggle from "../Theme/ThemeToggle";
 
 export default function Navbar() {
   return (
-    <div className="z-10 mb-24 md:mb-32">
-      <div className="fixed top-0 w-full dark:bg-dark dark:text-white  shadow-md bg-white  dark:shadow-md ">
+    <div className=" mb-24 md:mb-32">
+      <div className="fixed z-[9999] top-0 w-full dark:bg-dark dark:text-white  shadow-md bg-white  dark:shadow-md ">
         <div className="container mx-auto">
           <div className="flex justify-between h-16 px-5 md:h-20 items-center">
             <div className="text-white">

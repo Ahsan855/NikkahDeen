@@ -5,7 +5,7 @@ import { FaSearch } from "react-icons/fa";
 export default function SelectedData() {
   return (
     <div>
-      <div className="flex items-center justify-center flex-wrap md:flex-nowrap gap-5 bg-[#F3D9FA]">
+      <div className="flex py-2 items-center justify-center flex-wrap md:flex-nowrap gap-5  bg-[#F3D9FA]">
         <div className="flex justify-center items-center flex-col">
           <label htmlFor="patro" className="text-gray-700">
             আমি খুঁজছি
@@ -37,7 +37,7 @@ export default function SelectedData() {
           <DropdownSelection id="district" options={["ঢাকা", "ঢাকা", "ঢাকা"]} />
         </div>
 
-        <div className=" bg-seocundary ">
+        <div className=" bg-seocundary rounded-l-md cursor-pointer hover:bg-primary">
           <div className="p-2 text-white">
             <FaSearch className="text-2xl " />
           </div>
