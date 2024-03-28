@@ -1,51 +1,36 @@
 "use client";
 
-import React, { useRef, useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import bright from "@/assets/image/pattiri.png";
+function Arrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        padding: "3px",
 
+        color: "white",
+        background: "#515251",
+      }}
+      onClick={onClick}
+    />
+  );
+}
 const BiodataPattiri = ({ biodatabright }) => {
-  const sliderRef = useRef(null);
-  const [slidesToShow, setSlidesToShow] = useState(4);
-
-  useEffect(() => {
-    const handleResize = () => {
-      // Update settings based on window width
-      const screenWidth = window.innerWidth;
-      let newSlidesToShow = 4; // Default for large screens
-
-      if (screenWidth < 640) {
-        newSlidesToShow = 1; // For small screens (phones)
-      } else if (screenWidth < 1024) {
-        newSlidesToShow = 2; // For tablets
-      }
-
-      if (newSlidesToShow !== slidesToShow) {
-        setSlidesToShow(newSlidesToShow);
-      }
-    };
-
-    // Add event listener for window resize
-    window.addEventListener("resize", handleResize);
-
-    // Call handleResize once to set initial state
-    handleResize();
-
-    // Cleanup event listener on component unmount
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, [slidesToShow]);
-
   const settings = {
     infinite: false,
     speed: 500,
-    slidesToShow: slidesToShow,
-    slidesToScroll: slidesToShow,
+    slidesToShow: 4,
+    slidesToScroll: 1,
     initialSlide: 0,
+    nextArrow: <Arrow />,
+    prevArrow: <Arrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -83,7 +68,7 @@ const BiodataPattiri = ({ biodatabright }) => {
         <div className="w-7 h-2 rounded-full bg-primary"></div>
         <div className="w-20 h-2 rounded-full bg-primary"></div>
       </div>
-      <Slider ref={sliderRef} {...settings} key={slidesToShow}>
+      <Slider {...settings}>
         {biodatabright.map((data) => (
           <div key={data.id} className="px-3">
             <div className="max-w-sm p-5 rounded shadow-lg bg-white dark:bg-dark">

@@ -21,7 +21,7 @@ export default function Procedure() {
         <div className="mt-20 space-y-10">
           {/* 1st col */}
           <div className="md:flex flex-row items-center gap-x-5 space-y-10 md:space-y-0">
-            <div className="flex flex-col items-center gap-y-5 shadow-md p-4 cursor-pointer rounded-md hover:shadow-xl duration-300">
+            <div className="flex flex-col items-center gap-y-5 p-4 cursor-pointer ">
               <Image
                 src={svg1}
                 className="bg-white h-16 w-16 p-2 rounded-md mx-auto"
@@ -30,7 +30,7 @@ export default function Procedure() {
               <h1 className="text-2xl font-bold">রেজিস্ট্রেশন করুন</h1>
               <p>খুব সহজেই বিনামূল্যে দ্বীনি বিয়ে বায়োডাটা তৈরি করতে পারবেন।</p>
             </div>
-            <div className="flex flex-col items-center gap-y-5 shadow-md p-4 cursor-pointer rounded-md hover:shadow-xl duration-300">
+            <div className="flex flex-col items-center gap-y-5 p-4 cursor-pointer">
               <Image
                 src={svg2}
                 className="bg-white h-16 w-16 p-2 rounded-md mx-auto"
@@ -39,7 +39,7 @@ export default function Procedure() {
               <h1 className="text-2xl font-bold">বায়োডাটা তৈরি করুন</h1>
               <p>খুব সহজেই বিনামূল্যে দ্বীনি বিয়ে বায়োডাটা তৈরি করতে পারবেন।</p>
             </div>
-            <div className="flex flex-col items-center gap-y-5 shadow-md p-4 cursor-pointer rounded-md hover:shadow-xl duration-300">
+            <div className="flex flex-col items-center gap-y-5 p-4 cursor-pointer">
               <Image
                 src={svg3}
                 className="bg-white h-16 w-16 p-2 rounded-md mx-auto"
@@ -48,7 +48,7 @@ export default function Procedure() {
               <h1 className="text-2xl font-bold">পাত্র-পাত্রী খুঁজুন</h1>
               <p>খুব সহজেই বিনামূল্যে দ্বীনি বিয়ে বায়োডাটা তৈরি করতে পারবেন।</p>
             </div>
-            <div className="flex flex-col items-center gap-y-5 shadow-md p-4 cursor-pointer rounded-md hover:shadow-xl duration-300">
+            <div className="flex flex-col items-center gap-y-5 p-4 cursor-pointer">
               <Image
                 src={svg4}
                 className="bg-white h-16 w-16 p-2 rounded-md mx-auto"
@@ -60,7 +60,7 @@ export default function Procedure() {
           </div>
           {/* 2nd col */}
           <div className="md:flex flex-row items-center gap-x-5 mt-10 space-y-10 md:space-y-0">
-            <div className="flex flex-col items-center gap-y-5 shadow-md p-4 cursor-pointer rounded-md hover:shadow-xl duration-300">
+            <div className="flex flex-col items-center gap-y-5 p-4 cursor-pointer ">
               <Image
                 src={svg7}
                 className="bg-white h-16 w-16 p-2 rounded-md mx-auto"
@@ -69,7 +69,7 @@ export default function Procedure() {
               <h1 className="text-2xl font-bold">তাদের মতামত জানুন</h1>
               <p>খুব সহজেই বিনামূল্যে দ্বীনি বিয়ে বায়োডাটা তৈরি করতে পারবেন।</p>
             </div>
-            <div className="flex flex-col items-center gap-y-5 shadow-md p-4 cursor-pointer rounded-md hover:shadow-xl duration-300">
+            <div className="flex flex-col items-center gap-y-5  p-4 cursor-pointer ">
               <Image
                 src={svg6}
                 className="bg-white h-16 w-16 p-2 rounded-md mx-auto"
@@ -78,7 +78,7 @@ export default function Procedure() {
               <h1 className="text-2xl font-bold">বিয়ের আংটি পরান</h1>
               <p>খুব সহজেই বিনামূল্যে দ্বীনি বিয়ে বায়োডাটা তৈরি করতে পারবেন।</p>
             </div>
-            <div className="flex flex-col items-center gap-y-5 shadow-md p-4 cursor-pointer rounded-md hover:shadow-xl duration-300">
+            <div className="flex flex-col items-center gap-y-5 p-4 cursor-pointer">
               <Image
                 src={svg5}
                 className="bg-white h-16 w-16 p-2 rounded-md mx-auto"
@@ -92,7 +92,7 @@ export default function Procedure() {
                 <span className="text-xl font-normal w-52 pr-2">
                   রেজিস্ট্রেশন করুন
                 </span>
-                <span className=" rounded-r hover:bg-white border-l-2  text-white hover:rounded-md hover:text-primary absolute right-0 top-0  h-full flex items-center justify-center px-1 group-hover:duration-300 group-hover:w-full w-10 duration-300">
+                <span className=" hover:bg-white   text-white hover:rounded-md hover:text-primary absolute right-0 top-0  h-full flex items-center justify-center px-1 group-hover:duration-300 group-hover:w-full w-10 duration-300">
                   <FaArrowRightFromBracket className="h-4 w-4 inline mx-auto" />
                 </span>
               </div>

@@ -5,8 +5,8 @@ import { FaSearch } from "react-icons/fa";
 export default function SelectedData() {
   return (
     <div>
-      <div className="flex py-2 items-center justify-center flex-wrap md:flex-nowrap gap-5  bg-[#F3D9FA]">
-        <div className="flex justify-center items-center flex-col">
+      <div className="py-2 grid grid-cols-2 md:grid-cols-4 gap-5 bg-[#F3D9FA]">
+        <div className="flex justify-center items-center flex-col md:w-auto w-full">
           <label htmlFor="patro" className="text-gray-700">
             আমি খুঁজছি
           </label>
@@ -21,7 +21,7 @@ export default function SelectedData() {
             options={["অবিবাহিত", "বিবাহিত"]}
           />
         </div>
-        <div className="flex  justify-center items-center flex-col">
+        <div className="flex justify-center items-center flex-col md:w-auto w-full">
           <label htmlFor="ageRange" className="text-gray-700">
             বয়স
           </label>
@@ -30,7 +30,7 @@ export default function SelectedData() {
             options={["১৮ - ২১", "১২ - ১৮", "২৫ - ২৮"]}
           />
         </div>
-        <div className="flex justify-center items-center flex-col">
+        <div className="flex justify-center items-center flex-col md:w-auto w-full">
           <label htmlFor="district" className="text-gray-700">
             জেলা
           </label>

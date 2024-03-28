@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import logo from "@/assets/image/footerlogo.png";
 import dash from "@/assets/image/dash.png";
 import { FaFacebookF } from "react-icons/fa";
@@ -10,6 +9,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { MdHome } from "react-icons/md";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -24,16 +24,16 @@ export default function Footer() {
               assist you make sureevery body forward.
             </p>
             <div className="flex gap-x-5">
-              <div className="h-6 w-6 rounded-full cursor-pointer bg-white text-primary flex items-center justify-center transition-colors duration-300 hover:text-white hover:bg-primary">
+              <div className="h-8 w-8 rounded-full cursor-pointer bg-white text-primary flex items-center justify-center transition-colors duration-300 hover:text-white hover:bg-primary">
                 <FaFacebookF />
               </div>
-              <div className="h-6 w-6 rounded-full cursor-pointer bg-white text-primary flex items-center justify-center transition-colors duration-300 hover:text-white hover:bg-primary">
+              <div className="h-8 w-8 rounded-full cursor-pointer bg-white text-primary flex items-center justify-center transition-colors duration-300 hover:text-white hover:bg-primary">
                 <IoLogoWhatsapp />
               </div>
-              <div className="h-6 w-6 rounded-full cursor-pointer bg-white text-primary flex items-center justify-center transition-colors duration-300 hover:text-white hover:bg-primary">
+              <div className="h-8 w-8 rounded-full cursor-pointer bg-white text-primary flex items-center justify-center transition-colors duration-300 hover:text-white hover:bg-primary">
                 <FaInstagram />
               </div>
-              <div className="h-6 w-6 rounded-full cursor-pointer bg-white text-primary flex items-center justify-center transition-colors duration-300 hover:text-white hover:bg-primary">
+              <div className="h-8 w-8 rounded-full cursor-pointer bg-white text-primary flex items-center justify-center transition-colors duration-300 hover:text-white hover:bg-primary">
                 <IoLogoYoutube />
               </div>
             </div>
@@ -52,11 +52,11 @@ export default function Footer() {
                     মূল পেজস্
                   </a>
                 </li>
-                <Image src={dash} alt="" className="mb-5" />
+                <Image src={dash} alt="" />
 
-                <li className="flex items-center gap-x-2 text-white font-medium">
+                <li className="flex items-center gap-x-2 pt-5 text-white font-medium">
                   {" "}
-                  <MdKeyboardArrowRight className="text-xl" />
+                  <MdKeyboardArrowRight className="text-2xl" />
                   <a
                     href=""
                     className=" hover:text-primary transition duration-300 ease-in-out"
@@ -66,7 +66,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-x-2 text-white font-medium">
                   {" "}
-                  <MdKeyboardArrowRight className="text-xl" />
+                  <MdKeyboardArrowRight className="text-2xl" />
                   <a
                     href=""
                     className=" hover:text-primary transition duration-300 ease-in-out"
@@ -76,7 +76,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-x-2 text-white font-medium">
                   {" "}
-                  <MdKeyboardArrowRight className="text-xl" />
+                  <MdKeyboardArrowRight className="text-2xl" />
                   <a
                     href=""
                     className=" hover:text-primary transition duration-300 ease-in-out"
@@ -86,7 +86,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-x-2 text-white font-medium">
                   {" "}
-                  <MdKeyboardArrowRight className="text-xl" />
+                  <MdKeyboardArrowRight className="text-2xl" />
                   <a
                     href=""
                     className=" hover:text-primary transition duration-300 ease-in-out"
@@ -96,7 +96,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-x-2 text-white font-medium">
                   {" "}
-                  <MdKeyboardArrowRight className="text-xl" />
+                  <MdKeyboardArrowRight className="text-2xl" />
                   <a
                     href=""
                     className=" hover:text-primary transition duration-300 ease-in-out"
@@ -120,11 +120,11 @@ export default function Footer() {
                     এডমিন পেজস্
                   </a>
                 </li>
-                <Image src={dash} alt="" className="mb-5" />
+                <Image src={dash} alt="" />
 
-                <li className="flex items-center gap-x-2 text-white font-medium">
+                <li className="flex items-center gap-x-2 pt-5 text-white font-medium">
                   {" "}
-                  <MdKeyboardArrowRight className="text-xl" />
+                  <MdKeyboardArrowRight className="text-2xl" />
                   <a
                     href=""
                     className=" hover:text-primary transition duration-300 ease-in-out"
@@ -134,7 +134,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-x-2 text-white font-medium">
                   {" "}
-                  <MdKeyboardArrowRight className="text-xl" />
+                  <MdKeyboardArrowRight className="text-2xl" />
                   <a
                     href=""
                     className=" hover:text-primary transition duration-300 ease-in-out"
@@ -144,7 +144,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-x-2 text-white font-medium">
                   {" "}
-                  <MdKeyboardArrowRight className="text-xl" />
+                  <MdKeyboardArrowRight className="text-2xl" />
                   <a
                     href=""
                     className=" hover:text-primary transition duration-300 ease-in-out"
@@ -154,7 +154,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-x-2 text-white font-medium">
                   {" "}
-                  <MdKeyboardArrowRight className="text-xl" />
+                  <MdKeyboardArrowRight className="text-2xl" />
                   <a
                     href=""
                     className=" hover:text-primary transition duration-300 ease-in-out"
@@ -164,7 +164,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-x-2 text-white font-medium">
                   {" "}
-                  <MdKeyboardArrowRight className="text-xl" />
+                  <MdKeyboardArrowRight className="text-2xl" />
                   <a
                     href=""
                     className=" hover:text-primary transition duration-300 ease-in-out"
@@ -188,9 +188,9 @@ export default function Footer() {
                     জরুরী যোগাযোগ
                   </a>
                 </li>
-                <Image src={dash} alt="" className="mb-5" />
+                <Image src={dash} alt="" />
 
-                <li className="flex items-center gap-x-2 text-white font-medium">
+                <li className="flex items-center gap-x-2 pt-5 text-white font-medium">
                   {" "}
                   <FaPhoneAlt className="text-xl" />
                   <a
@@ -225,7 +225,10 @@ export default function Footer() {
           </div>
         </div>
         <p className="text-center text-white font-normal mt-10 ">
-          স্বত্ব © ২০২৩ <span className="text-primary">নিকাহ্ দ্বীন </span>
+          স্বত্ব © ২০২৩{" "}
+          <Link href="/" className="text-primary cursor-pointer">
+            নিকাহ্ দ্বীন{" "}
+          </Link>
           কর্তৃক সর্বস্বত্ব সংরক্ষিত
         </p>
       </footer>
